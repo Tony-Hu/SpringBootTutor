@@ -28,4 +28,8 @@ public class CourseRepository {
     public List<Course> findAllClasses(){
         return  courses;
     }
+
+    public List<Course> findaAllCourse(String inputString) {
+        return new ArrayList<>();
+    }
 }
